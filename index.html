@@ -1,139 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <style></style>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/styles.css" />
     <title>Automovil-Unit</title>
-  </head>
-  <body>
+</head>
+
+<body oncontextmenu="return false" class="snippet-body">
     <nav class="navbar navbar-expand-lg navbar-nav-scroll bg-light">
-      <div class="container-fluid">
-        <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/images/logo .png" alt="" class="img-fluid"
-          /></a>
+        <div class="container-fluid">
+            <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
+                <a class="navbar-brand" href="#"><img src="./assets/images/logo .png" alt="" class="img-fluid" /></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Requisitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Beneficios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Requisitos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
     <section class="container justify-content-center" id="home">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-sm-6 col-md-4 col-lg-8 col-xl-8 col-xs-1 col-6">
-          <h2 class="title">
-            Comparte tu auto y gana, o alquila y vive la experiencia
-          </h2>
-          <p>Únete hoy a Automovile-Unit</p>
-          <button class="btn btn-primary">Registrarme</button>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-8 col-xl-8 col-xs-1 col-6">
+                <h2 class="title">
+                    Comparte tu auto y gana, o alquila y vive la experiencia
+                </h2>
+                <p>Únete hoy a Automovile-Unit</p>
+                <button class="btn btn-primary">Registrarme</button>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-8 col-sm-6 col-6">
+                <img src="assets/images/logo.svg" alt="" class="img-fluid" />
+            </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-8 col-sm-6 col-6">
-          <img src="assets/images/logo.svg" alt="" class="img-fluid" />
+        <div class="row">
+            <img src="assets/images/fondo1.png" alt="" class="img-fluid" />
         </div>
-      </div>
-      <div class="row">
-        <img src="assets/images/fondo1.png" alt="" class="img-fluid" />
-      </div>
     </section>
 
     <section class="container" id="about-us">
-      <div class="row">
-        <h1 class="text-center title">Nosotros</h1>
-      </div>
-      <div class="row align-items-center justify-content-center">
-        <div class="col-xl-5 col-lg-5  col-md-6 col-sm-6 col-5">
-          <img src="./assets/images/logo-startup.svg" alt="" class="img-fluid" />
+        <div class="row">
+            <h1 class="text-center title">Nosotros</h1>
         </div>
-        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-10 paragraph">
-          <p>
-            Somos Speed-Driving un startup integrado por estudiantes del quinto
-            ciclo de la carrera de Ingeniería de Software de la Universidad
-            Peruana de Ciencias Aplicadas
-          </p>
-          <p>
-            Nuestra misión es revolucionar la movilidad en el Perú al
-            proporcionar una plataforma segura y eficiente que permita a las
-            personas compartir vehículos de manera confiable y conveniente.
-          </p>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-5">
+                <img src="./assets/images/logo-startup.svg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-10 paragraph">
+                <p>
+                    Somos Speed-Driving un startup integrado por estudiantes del quinto
+                    ciclo de la carrera de Ingeniería de Software de la Universidad
+                    Peruana de Ciencias Aplicadas
+                </p>
+                <p>
+                    Nuestra misión es revolucionar la movilidad en el Perú al
+                    proporcionar una plataforma segura y eficiente que permita a las
+                    personas compartir vehículos de manera confiable y conveniente.
+                </p>
+            </div>
         </div>
-      </div>
     </section>
 
-    <section class="container mb-5 py-5" id="about">
-      <div class="row">
-        <h1 class="text-center title">Acerca de</h1>
-      </div>
-      <div class="row align-items-center justify-content-center">
-      
-        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-10 paragraph ">
-            <h4 class="mt-3" >¿Qué es AutomovilUnit?</h4>
-          <p>
-            Somos Speed-Driving un startup integrado por estudiantes del quinto
-            ciclo de la carrera de Ingeniería de Software de la Universidad
-            Peruana de Ciencias Aplicadas
-          </p>
-          <p>
-            Nuestra misión es revolucionar la movilidad en el Perú al
-            proporcionar una plataforma segura y eficiente que permita a las
-            personas compartir vehículos de manera confiable y conveniente.
-          </p>
+    <section class="container mb-5" id="about">
+        <div class="row">
+            <h1 class="text-center title">Acerca de</h1>
         </div>
-          <div class="col-xl-5 col-lg-5  col-md-6 col-sm-6 col-5">
-          <img src="./assets/images/logo.svg" alt="" class="img-fluid" />
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-10 paragraph">
+                <h4 class="mt-3">¿Qué es AutomovilUnit?</h4>
+                <p>
+                    Somos Speed-Driving un startup integrado por estudiantes del quinto
+                    ciclo de la carrera de Ingeniería de Software de la Universidad
+                    Peruana de Ciencias Aplicadas
+                </p>
+                <p>
+                    Nuestra misión es revolucionar la movilidad en el Perú al
+                    proporcionar una plataforma segura y eficiente que permita a las
+                    personas compartir vehículos de manera confiable y conveniente.
+                </p>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-5">
+                <img src="./assets/images/logo.svg" alt="" class="img-fluid" />
+            </div>
         </div>
-      </div>
     </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <section class="container mb-5 py-5" id="benefits">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center title">Beneficios</h1>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Propietarios</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/dinero.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Gana con Tu Vehículo Extra</h4>
+                                                <p class="card-text">
+                                                    Convierte tu vehículo en una fuente de ingresos extra al unirte a
+                                                    Automovile-Unit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/confianza.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Comunidad de Confianza
+                                                </h4>
+                                                <p class="card-text">
+                                                    Automovile-Unit establece un ambiente seguro para propietarios y
+                                                    arrendatarios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/condiciones.svg" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Controla tus Condiciones
+                                                </h4>
+                                                <p class="card-text">
+                                                    En Automovile-Unit, eres el jefe. Tú decides las tarifas de
+                                                    alquiler, la disponibilidad y las condiciones para tus
+                                                    arrendatarios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                               <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/dinero.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Gana con Tu Vehículo Extra</h4>
+                                                <p class="card-text">
+                                                    Convierte tu vehículo en una fuente de ingresos extra al unirte a
+                                                    Automovile-Unit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/confianza.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Comunidad de Confianza
+                                                </h4>
+                                                <p class="card-text">
+                                                    Automovile-Unit establece un ambiente seguro para propietarios y
+                                                    arrendatarios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/condiciones.svg" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Controla tus Condiciones
+                                                </h4>
+                                                <p class="card-text">
+                                                    En Automovile-Unit, eres el jefe. Tú decides las tarifas de
+                                                    alquiler, la disponibilidad y las condiciones para tus
+                                                    arrendatarios.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Arrendatarios</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                        data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/vehiculos 1.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Variedad a tu Elección</h4>
+                                                <p class="card-text">
+                                                    Ya sea para un viaje de negocios o una aventura en carretera, encontrarás el automóvil que se adapte a tu estilo y preferencia.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/ahorro.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Ahorra en tus Aventuras
+
+                                                </h4>
+                                                <p class="card-text">
+                                                    Alquila un vehículo por el tiempo que necesitas y ahorra dinero en comparación con la propiedad tradicional.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/relajado.svg" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Experiencia sin Preocupaciones
+                                                </h4>
+                                                <p class="card-text">
+                                                    Di adiós a los costos de mantenimiento, seguros y trámites que vienen con la propiedad de un automóvil.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                             <div class="row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/vehiculos 1.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Variedad a tu Elección</h4>
+                                                <p class="card-text">
+                                                    Ya sea para un viaje de negocios o una aventura en carretera, encontrarás el automóvil que se adapte a tu estilo y preferencia.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/ahorro.svg" />
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Ahorra en tus Aventuras
+
+                                                </h4>
+                                                <p class="card-text">
+                                                    Alquila un vehículo por el tiempo que necesitas y ahorra dinero en comparación con la propiedad tradicional.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card  w-100 shadow text-center">
+                                            <div class="card-img-top mt-4">
+                                                <img class="img-fluid" alt="100%x280"
+                                                    src="./assets/images/relajado.svg" />
+                                            </div>
+
+                                            <div class="card-body">
+                                                <h4 class="card-title title">Experiencia sin Preocupaciones
+                                                </h4>
+                                                <p class="card-text">
+                                                    Di adiós a los costos de mantenimiento, seguros y trámites que vienen con la propiedad de un automóvil.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src=""></script>
+    <script></script>
+</body>
+
 </html>
