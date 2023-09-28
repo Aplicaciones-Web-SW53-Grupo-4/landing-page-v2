@@ -4,6 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automovil-Unit</title>
+    <link rel="icon" href="assets/images/logo-startup.svg" type="image/x-icon">
+
+    <meta name="description"
+        content="Explora la comodidad y la libertad de alquilar vehículos con Automovil-Unit. Ofrecemos una amplia gama de opciones de alquiler de autos para satisfacer tus necesidades de viaje. Descubre tarifas competitivas, modelos modernos y un proceso de reserva fácil. ¡Emprende tu próximo viaje con confianza alquilando un vehículo con nosotros!" />
+    <meta name="author" content="Speed-Driving" />
+
+    <meta name="keywords" content="Alquiler de autos en Lima,
+Rentar vehículos,
+Arriendo de coches,
+Autos de alquiler,
+Alquiler de carros,
+Vehículos en alquiler,
+Rent a car Lima" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet"
@@ -17,7 +31,7 @@
     <title>Automovil-Unit</title>
 </head>
 
-<body oncontextmenu="return false" class="snippet-body">
+<body>
     <nav class="navbar navbar-expand-lg navbar-nav-scroll bg-light">
         <div class="container-fluid">
             <div class="col-xl-1 col-lg-1 col-md-3 col-sm-3">
@@ -30,22 +44,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="#home">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#about-us">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Beneficios</a>
+                        <a class="nav-link" href="#benefits">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Requisitos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#faq">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -55,11 +66,12 @@
     <section class="container justify-content-center" id="home">
         <div class="row align-items-center justify-content-center">
             <div class="col-sm-6 col-md-4 col-lg-8 col-xl-8 col-xs-1 col-6">
-                <h2 class="title">
+                <h1 class="title">
                     Comparte tu auto y gana, o alquila y vive la experiencia
-                </h2>
-                <p>Únete hoy a Automovile-Unit</p>
-                <button class="btn btn-primary">Registrarme</button>
+                </h1>
+                <h4>Únete hoy a Automovile-Unit</h4>
+                <button class="btn btn-primary btn-call-to-action"><a href="https://automovile-unit.web.app/#/"
+                        target="_blank">Registrarme</a></button>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-8 col-sm-6 col-6">
                 <img src="assets/images/logo.svg" alt="" class="img-fluid" />
@@ -427,23 +439,25 @@
             <div class="col-12 col-lg-3 col-xl-3 col-md-3">
                 <h4>Listas</h4>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Nosotros</li>
-                    <li>Acerca de</li>
-                    <li>Beneficios</li>
-                    <li>Requisitos</li>
-                    <li>Preguntas frecuentes</li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about-us">Nosotros</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
                 </ul>
             </div>
             <div class="col-12 col-lg-6 col-xl-6 col-md-6">
                 <h4>Contacto</h4>
                 <ul>
                     <li>
-                        <span class="material-symbols-outlined clickeable "> location_on </span>Av. la
-                        Marina 2810, San Miguel 15087
+                        <a href="https://www.google.com/maps/place/Av.+la+Marina+2810,+San+Miguel+15087/data=!4m2!3m1!1s0x9105c96529148f89:0xf9f329f576c8cbb4?sa=X&ved=2ahUKEwiYxODnhMyBAxWZLLkGHRVsBUUQ8gF6BAgKEAA&ved=2ahUKEwiYxODnhMyBAxWZLLkGHRVsBUUQ8gF6BAgNEAI"
+                            target="_blank"><span class="material-symbols-outlined clickeable "> location_on </span>Av.
+                            la
+                            Marina 2810, San Miguel 15087</a>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined clickeable"> mail </span>AutomovilUnit
+                        <a href="https://github.com/Aplicaciones-Web-SW53-Grupo-4" target="_blank"><span
+                                class="material-symbols-outlined clickeable"> mail </span>AutomovilUnit</a>
                     </li>
                 </ul>
             </div>
