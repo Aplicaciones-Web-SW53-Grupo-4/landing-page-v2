@@ -24,8 +24,7 @@
 .background-home{
   position: absolute;
   top:40vh;
-  opacity: 0.4;
-  z-index: -100;
+  opacity: 0.15;
   width: 100%;
   left: 0px;
 }
@@ -114,4 +113,13 @@ a:hover{
 .nav-item{
     color: black;
     font-weight: bold;
+}
+#about{
+  background-color: black;
+}
+#home{
+  background-color: black;
+}
+.font-white{
+  color:white;
 }
