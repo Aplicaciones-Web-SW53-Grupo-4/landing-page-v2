@@ -9,6 +9,12 @@
 .login-color{
   color:#3A85ED;
 }
+.border-images{
+  border: #777;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 10px 0px #777;
+}
 .paragraph{
     text-align: justify;
 }
